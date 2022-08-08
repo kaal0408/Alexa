@@ -128,9 +128,9 @@ repo(){
 
 	# Get git repo if the installer is runned standalone
 
-	[[ ! "VENOMxOPxMUSIC" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
+	[[ ! "Alexa" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
 
-	git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC &&  cd VENOMxOPxMUSIC
+	git clone https://github.com/kaal0408/Alexa &&  cd Alexa
 
 }
 
@@ -176,7 +176,7 @@ repo
 
 installation
 
-pprint "\n\n\n\n\nVenom Music Bot Installation Completed!" "cgreen"
+pprint "\n\n\n\n\nAlexa Music Bot Installation Completed!" "cgreen"
 
 sleep 4
 
