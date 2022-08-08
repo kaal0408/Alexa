@@ -12,10 +12,9 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
 STRING_SESSION = getenv("STRING_SESSION")
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL")
+BOT_USERNAME = getenv("OWNER_USERNAME")
+
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1282754256").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2068551800").split()))
 aiohttpsession = aiohttp.ClientSession()
