@@ -190,11 +190,7 @@ pprint "\nAPI HASH: "; color_reset; read API_HASH
 
 pprint "\nBOT TOKEN: "; color_reset; read BOT_TOKEN
 
-pprint "\nOWNER USERNAME: "; color_reset; read OWNER_USERNAME
-
-pprint "\nSUPPORT CHANNEL: "; color_reset; read SUPPORT_CHANNEL
-
-pprint "\nSUPPORT GROUP: "; color_reset; read SUPPORT_GROUP
+pprint "\nBOT USERNAME: "; color_reset; read OWNER_USERNAME
 
 pprint "\nSTRING SESSION: "; color_reset; read STRING_SESSION
 
