@@ -5,7 +5,7 @@ from modules.helpers.filters import command
 from modules.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from modules.config import OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
+from modules.config import BOT_USERNAME
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
@@ -43,9 +43,9 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/wtftoxicop/musicop"),
-                        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
+                        text="REPO", url=f"https://github.com/kaal-op/Alexa"),
+                        InlineKeyboardButton(text="CREATER", url=f"https://t.me/Murat_30"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30_God"),
                   ],[
                       InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
                 ]
@@ -80,7 +80,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/wtftoxicop/musicop")
+                        " REPO ", url=f"https://github.com/kaal-op/Alexa")
                 ]
             ]
         ),
