@@ -1,9 +1,9 @@
 {
-    "name": "ToxicMUSIC",
+    "name": "Alexa",
     "logo": "https://telegra.ph/file/8c623ff7299b03416d519.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC",
+    "repository": "https://github.com/kaal-op/Alexa",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -18,19 +18,7 @@
             "description": "Put Bot Token Of Your Bot",
             "required": true
         },
-        "SUPPORT_GROUP": {
-          "description": "PUT UR GROUP LINK HERE WITHOU @",
-          "required": true
-        },
-        "SUPPORT_CHANNEL": {
-          "description": "PUT UR CHANNEL LINK HERE WITHOU @",
-          "required": true
-        },
-        
-          
-          
-       
-        "OWNER_USERNAME": {
+        "BOT_USERNAME": {
           "description": "PUT UR USERNAME HERE WITHOU @ LIKE unbeatable_abuser",
           "required": true
         },
