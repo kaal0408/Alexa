@@ -1,4 +1,3 @@
-# VENOMxCRAZY // @VENOMxCRAZY
 
 import os
 import aiofiles
@@ -175,7 +174,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
                 ]
             ]
@@ -215,7 +214,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
                 ]
             ]
@@ -232,7 +231,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPO_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
                 ]
             ]
@@ -287,7 +286,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
                 ]
             ]
