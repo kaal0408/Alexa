@@ -17,7 +17,7 @@ from modules.helpers.admins import get_administrators
 from youtube_search import YoutubeSearch
 from modules import converter
 from modules.downloaders import youtube
-from modules.config import DURATION_LIMIT, que, SUDO_USERS, OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
+from modules.config import DURATION_LIMIT, que, SUDO_USERS
 from modules.cache.admins import admins as a
 from modules.helpers.filters import command, other_filters
 from modules.helpers.command import commandpro
@@ -163,7 +163,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/8c623ff7299b03416d519.jpg"
+        thumb_name = "https://telegra.ph/file/eeeec4720286552979aee.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -171,8 +171,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
                       InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
@@ -211,8 +211,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
                       InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
@@ -222,14 +222,14 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/8c623ff7299b03416d519.jpg"
+            thumb_name = "https://telegra.ph/file/eeeec4720286552979aee.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPO_CHANNEL}"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
                       InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
@@ -283,8 +283,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
                       InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
 
