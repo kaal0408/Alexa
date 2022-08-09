@@ -1,6 +1,6 @@
 {
     "name": "Alexa",
-    "logo": "https://telegra.ph/file/8c623ff7299b03416d519.jpg",
+    "logo": "https://telegra.ph/file/eeeec4720286552979aee.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/kaal-op/Alexa",
@@ -19,7 +19,7 @@
             "required": true
         },
         "BOT_USERNAME": {
-          "description": "PUT UR USERNAME HERE WITHOU @ LIKE unbeatable_abuser",
+          "description": "PUT UR USERNAME HERE without @",
           "required": true
         },
         "STRING_SESSION": {
