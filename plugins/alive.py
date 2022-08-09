@@ -33,10 +33,10 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8c623ff7299b03416d519.jpg",
+        photo=f"https://telegra.ph/file/eeeec4720286552979aee.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+💥 I am fast vc bot
+For playing music ...
 ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
                         InlineKeyboardButton(text="CREATER", url=f"https://t.me/Murat_30"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30_God"),
                   ],[
-                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Add to your group", url=f"https://t.me/{OWNER_USERNAME}")
                 ]
                 
            ]
@@ -55,16 +55,16 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "Toxicop"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "alexa"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://telegra.ph/file/eeeec4720286552979aee.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text=
-                        "ᴊᴏɪɴ ʜᴇʀᴇ", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "REPO", url=f"https://github.com/KAAL-OP/Alexa")
                 ]
             ]
         ),
@@ -74,7 +74,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8c623ff7299b03416d519.jpg",
+        photo=f"https://telegra.ph/file/eeeec4720286552979aee.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
