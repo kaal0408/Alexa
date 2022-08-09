@@ -339,7 +339,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8c623ff7299b03416d519.jpg", 
+                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
                              caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
     )
 
@@ -350,7 +350,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8c623ff7299b03416d519.jpg", 
+                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
                              caption="**𝐑𝐞𝐬𝐮𝐦𝐞⏹...**"
     )
 
@@ -384,7 +384,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8c623ff7299b03416d519.jpg", 
+                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
                              caption=f'**𝐒𝐊𝐈𝐏𝐄𝐃...**'
    ) 
 
@@ -400,7 +400,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8c623ff7299b03416d519.jpg", 
+                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
                              caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝...**"
     )
 
@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/8c623ff7299b03416d519.jpg",
+                              photo="https://telegra.ph/file/eeeec4720286552979aee.jpg",
                               caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
     )
