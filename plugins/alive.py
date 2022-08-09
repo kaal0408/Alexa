@@ -47,7 +47,7 @@ For playing music ...
                         InlineKeyboardButton(text="CREATER", url=f"https://t.me/Murat_30"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30_God"),
                   ],[
-                      InlineKeyboardButton(text="Add to your group", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Add to your group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
