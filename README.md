@@ -19,7 +19,7 @@
 - **ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ ᴇᴀꜱɪʟʏ**
 
 
-A Pyrogram spam bot 
+A Pyrogram music bot 
 Generate-pyrogram-session-string - Replit
 https://replit.com/@dashezup/generate-pyrogram-session-string
 
