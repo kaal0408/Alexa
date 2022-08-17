@@ -19,6 +19,9 @@
 - **ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ ᴇᴀꜱɪʟʏ**
 
 
+A Pyrogram spam bot 
+Generate-pyrogram-session-string - Replit
+https://replit.com/@dashezup/generate-pyrogram-session-string
 
 ### Deploy To Heroku
 
