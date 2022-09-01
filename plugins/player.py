@@ -109,44 +109,6 @@ async def play(_, message: Message):
     global useer
     
     lel = await message.reply("**𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 🎸🎸...**")
-
-    administrators = await get_administrators(message.chat)
-    chid = message.chat.id
-
-    try:
-        user = await USER.get_me()
-    except:
-        user.first_name = "Aditya_Player"
-    usar = user
-    wew = usar.id
-    try:
-        await _.get_chat_member(chid, wew)
-    except:
-        for administrator in administrators:
-            if administrator == message.from_user.id:
-                try:
-                    invitelink = await _.export_chat_invite_link(chid)
-                except:
-                    await lel.edit(
-                        "**𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐌𝐞 𝐀𝐬 𝐀 𝐀𝐝𝐦𝐢𝐧 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐒𝐨𝐧𝐠❤️...**")
-                    return
-
-                try:
-                    await USER.join_chat(invitelink)
-                    await USER.send_message(
-                        message.chat.id, "**𝐇𝐞𝐲 𝐈 𝐚𝐦 𝐀𝐬𝐬𝐢𝐬𝐭𝐚n𝐭 𝐈 𝐣𝐨𝐢𝐧𝐞𝐝 𝐟𝐨𝐫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 𝐎𝐧 𝐕𝐂...**")
-
-                except UserAlreadyParticipant:
-                    pass
-                except Exception:
-                    await lel.edit(
-                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @Murat_30...**")
-    try:
-        await USER.get_chat(chid)
-    except:
-        await lel.edit(
-            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @Murat_30 ❤️...**")
-        return
     
     audio = (
         (message.reply_to_message.audio or message.reply_to_message.voice)
@@ -167,18 +129,6 @@ async def play(_, message: Message):
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
-
-        keyboard = InlineKeyboardMarkup(
-            [
-                [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
-                  ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
-
-                ]
-            ]
-        )
 
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)
@@ -208,34 +158,11 @@ async def play(_, message: Message):
                 dur += int(dur_arr[i]) * secmul
                 secmul *= 60
 
-            keyboard = InlineKeyboardMarkup(
-            [
-                [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
-                  ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
-
-                ]
-            ]
-        )
-
         except Exception as e:
             title = "NaN"
             thumb_name = "https://telegra.ph/file/eeeec4720286552979aee.jpg"
             duration = "NaN"
             views = "NaN"
-            keyboard = InlineKeyboardMarkup(
-            [
-                [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
-                  ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
-
-                ]
-            ]
-        )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
@@ -279,18 +206,6 @@ async def play(_, message: Message):
             )
             print(str(e))
             return
-
-        keyboard = InlineKeyboardMarkup(
-            [
-                [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
-                  ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
-
-                ]
-            ]
-        )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
