@@ -25,7 +25,7 @@ https://replit.com/@dashezup/generate-pyrogram-session-string
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kaal-op/Alexa)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kaal0408/Alexa)
 
 
 
