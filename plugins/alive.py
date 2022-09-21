@@ -37,13 +37,19 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 I am fast vc bot
 For playing music ...
+/play - to playing music
+/skip- To skip the music
+/pause- to pause music
+/resume- to resume music
+/alive- to check bot alive 
+/broadcast- to broadcast
 ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="REPO", url=f"https://github.com/kaal-op/Alexa"),
+                        text="REPO", url=f"https://github.com/kaal-op/Alexa/fork?"),
                         InlineKeyboardButton(text="CREATER", url=f"https://t.me/Murat_30"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30_God"),
                   ],[
@@ -64,7 +70,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(text=
-                        "REPO", url=f"https://github.com/KAAL-OP/Alexa")
+                        "REPO", url=f"https://github.com/KAAL-OP/Alexa/fork?")
                 ]
             ]
         ),
@@ -80,7 +86,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(text=
-                        " REPO ", url=f"https://github.com/kaal-op/Alexa")
+                        " REPO ", url=f"https://github.com/kaal-op/Alexa/fork?")
                 ]
             ]
         ),
