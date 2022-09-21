@@ -88,7 +88,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Toxic  (@unbeatable_abuser)",
+        f"Powered By: Toxic  (@Murat_30)",
         (255, 255, 255),
         font=font,
     )
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa/fork?")
 
                 ]
             ]
@@ -214,7 +214,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa/fork?")
 
                 ]
             ]
@@ -231,7 +231,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa/fork?")
 
                 ]
             ]
@@ -286,7 +286,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
                       InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa/fork?")
 
                 ]
             ]
