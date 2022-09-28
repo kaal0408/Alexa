@@ -101,7 +101,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "/fuck", "#"])
     & filters.group
     & ~filters.edited
-    & ~filters.forwarded
+    & ~filters.me
     & ~filters.via_bot
 )
 async def play(_, message: Message):
