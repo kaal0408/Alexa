@@ -8,7 +8,7 @@ bot = Bot(
     ":memory:",
     API_ID,
     API_HASH,
-    bot_token=BOT_TOKEN,
+    string_session = STRING_SeSSION,
     plugins=dict(root="plugins")
 )
 
