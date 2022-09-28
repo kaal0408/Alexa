@@ -10,10 +10,6 @@
             "description": "Your App ID",
             "required": true
         },
-        "API_HASH": {
-            "description": "Your App Hash",
-            "required": true
-        },
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
             "required": true
