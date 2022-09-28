@@ -2,8 +2,8 @@ from typing import Union, List
 from pyrogram import filters
 from modules.config import COMMAND_PREFIXES
 
-other_filters = filters.group & ~ filters.edited & ~ filters.via_bot & ~ filters.me
-other_filters2 = filters.private & ~ filters.edited & ~ filters.via_bot & ~ filters.me
+other_filters = filters.group & ~ filters.me & ~ filters.via_bot & ~ filters.me
+other_filters2 = filters.private & ~ filters.me & ~ filters.via_bot & ~ filters.me
 
 
 def command(commands: Union[str, List[str]]):

@@ -30,7 +30,7 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("start") & filters.private & ~filters.me)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/eeeec4720286552979aee.jpg",
@@ -61,7 +61,7 @@ For playing music ...
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "alexa"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "alexa"]) & filters.group & ~filters.me)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/eeeec4720286552979aee.jpg",
@@ -77,7 +77,7 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.me)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/eeeec4720286552979aee.jpg",
